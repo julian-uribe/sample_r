@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'static_pages/inicio'
+  root 'static_pages#inicio'
 
   get 'static_pages/supermercado'
 
